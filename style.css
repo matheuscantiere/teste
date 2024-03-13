@@ -65,3 +65,12 @@ img {
     font-family: "Montserrat", sans-serif;
     font-weight: 601;
 }
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(24, 170, 255);
+    border-radius: 5px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+}
