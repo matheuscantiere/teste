@@ -1,3 +1,79 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,601;1,601&display=swap')
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+.titulo{
+    font-size: 36px;
+    /*height: 150px;*//*
+    font-family: "Krona One", sans-serif;
+}
+.titulo-destaque{
+    color: rgb(24, 170, 255);
+}
+.texto-1{
+    font-size: 26px;
+    font-family: "Montserrat", sans-serif;
+}
+.texto-destaque{
+    color: rgb(24, 170, 255);
+}
+.apresentacao{
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo{
+    width: 615px;
+    /*height: 482px;*//*
+    display: flex;
+    flex-direction: column;
+    gap:
+}
+.links{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 601;
+}
+a{
+    color: black;
+}
+img {
+    width: 40%;
+}
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+.apresentacao__links__link {
+    background-color: rgb(24, 170, 255);
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 601;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(24, 170, 255);
+    border-radius: 5px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+}*/
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,601;1,601&display=swap')
 
@@ -46,7 +122,7 @@ body{
     font-weight: 601;
 }
 a{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 img {
     width: 40%;
@@ -54,9 +130,14 @@ img {
 .apresentacao__links{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
 .apresentacao__links__link {
-    background-color: rgb(24, 170, 255);
+
+    margin: 2%;
+    border: 2px solid rgb(24, 170, 255);
+    border-style: dotted;
     width: 280px;
     text-align: center;
     border-radius: 16px;
@@ -73,4 +154,11 @@ footer{
     color: black;
     font-family: "Montserrat", sans-serif;
     font-size: 17px;
+}
+.foto__links{
+    width: 10%;
+    padding: 0 20px;
+}
+.texto__links{
+    text-align: center;
 }
